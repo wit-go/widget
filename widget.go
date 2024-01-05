@@ -1,6 +1,6 @@
-package toolkit
+package widget
 
-// passes information between the toolkit library (plugin)
+// passes information between the gui package and the toolkit plugins
 //
 // This is the only thing that is passed between the toolkit plugin
 //
