@@ -12,7 +12,8 @@ redomod:
 	go mod tidy
 
 # sync repo to the github backup
-# git remote add github git@github.com:wit-go/gui.git
+# git remote add github git@github.com:wit-go/widget.git
+
 github:
 	git push origin master
 	git push origin devel
