@@ -31,6 +31,7 @@ type Action struct {
 	B	bool
 	I	int
 	S	string
+	A	any // switch to this or deprecate this? pros/cons?
 
 	// This is used for things like a slider(0,100)
 	X      int
@@ -48,7 +49,6 @@ type Action struct {
 	// Make widgets fill up the space available
 	Expand	bool
 
-	A	any // switch to this or deprecate this? pros/cons?
 }
 
 const (
